@@ -1,0 +1,21 @@
+#include "resources.h"
+
+IDI_ICON32X32 ICON "alarm.ico"
+IDI_ICON16X16 ICON "alarm-sm.ico"
+
+IDR_MYMENU MENU
+BEGIN
+    POPUP "TrayMenu"
+    BEGIN
+        //MENUITEM "Ava",                         ID_TRAYMENU_AVA
+        POPUP "Äratus"
+        BEGIN
+            MENUITEM "Sees",                        ID_TRAYMENU_ON
+            MENUITEM "Väljas",                      ID_TRAYMENU_OFF
+        END
+		//MENUITEM "Alert off",                   ID_TRAYMENU_ALEOFF
+        MENUITEM "Sule",                        ID_TRAYMENU_EXIT
+    END
+END
+
+IDR_ALARM1 WAVE "alarm.wav"

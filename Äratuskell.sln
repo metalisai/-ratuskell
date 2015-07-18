@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Äratuskell", "Äratuskell\Äratuskell.vcxproj", "{F5A23158-5420-40C4-9175-509B7E65F65C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5A23158-5420-40C4-9175-509B7E65F65C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F5A23158-5420-40C4-9175-509B7E65F65C}.Debug|Win32.Build.0 = Debug|Win32
+		{F5A23158-5420-40C4-9175-509B7E65F65C}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
